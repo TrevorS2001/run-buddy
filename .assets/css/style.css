@@ -60,7 +60,7 @@ section{
     padding: 60px;
 }
 .hero{
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero1-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -227,4 +227,11 @@ section{
   
   .contact-info a {
     color: #fce138;
+  }
+  .hero-cta h2{
+      color:#fce138;
+  }
+  .hero-cta p{
+      color: white;
+      width: 20%;
   }
