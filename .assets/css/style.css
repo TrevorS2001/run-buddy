@@ -18,12 +18,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background-image: url('../images/hero1-bg.jpg');
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-position: 80%;
   }
@@ -105,11 +104,12 @@
   .hero {
     background-image: url('../images/hero1-bg.jpg');
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-position: 80%;
+    background-attachment: fixed;
   }
   
   .hero-cta {
